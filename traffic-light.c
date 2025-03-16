@@ -1,12 +1,20 @@
 #include <stdio.h>
+#include <unistd.h>
 
 int
 main()
 {
-    printf("Red\n");
-    printf("\n");
-    printf("Red\n");
-    printf("Red\n");
-    printf("Red\n");
+    printf("red\n");
+    sleep (1);
+    printf("yellow\n");
+    sleep (1);
+    printf("green\n");
+    sleep (1);
+    printf("yellow\n");
+    sleep (1);
+    printf("red\n");
+    sleep (1);
+
+    return 0;
 }
 
